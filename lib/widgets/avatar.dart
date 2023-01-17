@@ -7,11 +7,14 @@ class Avatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: const [
-        Text('Adrian Gutierrez',
+        Text('Adrian Gtz',
             textAlign: TextAlign.center,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Color.fromARGB(255, 128, 111, 111))),
+            style: TextStyle(
+                fontWeight: FontWeight.w900,
+                fontSize: 18,
+                color: Colors.white)),
         SizedBox(
-          height: 5,
+          height: 15,
         ),
         CircleAvatar(
           maxRadius: 25,
