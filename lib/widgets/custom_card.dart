@@ -71,7 +71,10 @@ class card_column extends StatelessWidget {
               child: Center(
                 child: Text(nameButtom),
               )),
-          onPressed: () {},
+          onPressed: () {
+            // ignore: avoid_print
+            print(nameButtom);
+          },
         ),
         const SizedBox(
           height: 20,
